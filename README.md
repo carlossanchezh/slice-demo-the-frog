@@ -11,7 +11,7 @@ El objetivo del slice es validar las mecánicas principales, la arquitectura de 
 
 - 🎮 **Movimiento y dash** Movimiento fluido del personaje con dashes para esquivar.
 - ❤️ **Vida** Sistema de vida que al perderla toda reiniciará el nivel.
-- 🔥 **Combate a distancia** con el bastón mágico puede lanzar proyectiles para acabar con los enemigos (cargas de proyectiles limitadas).
+- 🔥 **Combate a distancia** con el bastón mágico puede lanzar proyectiles para acabar con los enemigos.
 - 🧪 **Inventario de pociones** (vida y cargas) con UI propia.
 - 🤖 **Enemigos variados**: cuerpo a cuerpo, de rango y un jefe con patrones distintos.
 - 💥 **Sistema de retroceso (knockback)** e invulnerabilidad temporal.
@@ -213,22 +213,23 @@ Al entrar en el trigger de `PantallaFinal`, se muestra el canvas final y se paus
 .
 ├── .github/workflows/
 ├── Assets/
-│   ├── Animations/ # Animaciones y controladores
-│   ├── Audio/ # Música y SFX
-│   ├── Font/ # Fuentes TMP
-│   ├── Input/ # InputSystem_Actions.inputactions
-│   ├── Prefabs/ # Prefabs reutilizables
-│   ├── Scenes/ # Escenas del juego
-│   ├── Scripts/ # Código C# 
-│   ├── Settings/ # URP y volumen global
-│   ├── Sprites/ # Sprites e imágenes
-│   ├── Tests/ # Tests EditMode y PlayMode
-│   └── Tilemap/ # Tilemaps y paletas
-├── Packages/
-├── ProjectSettings/
-├── .gitattributes
-├── .gitignore
-└── README.md
+│   ├── Animations/                    # Animaciones y controladores
+│   ├── Audio/                         # Música y SFX
+│   ├── Font/                          # Fuentes TMP
+│   ├── Input/                         # InputSystem_Actions.inputactions
+│   ├── Prefabs/                       # Prefabs reutilizables
+│   ├── Scenes/                        # Escenas del juego
+│   ├── Scripts/                       # Código C# 
+│   ├── Settings/                      # URP y volumen global
+│   ├── Sprites/                       # Sprites e imágenes
+│   ├── Tests/                         # Tests EditMode y PlayMode
+│   └── Tilemap/                       # Tilemaps y paletas
+├── Packages/                          # Dependencias del proyecto
+├── ProjectSettings/                   # Configuración del proyecto Unity
+├── .gitattributes                     # Clasificación de archivos para GitHub
+├── .gitignore                         # Archivos y carpetas ignorados por Git
+├── INSTRUCTIONS.md                    # Instrucciones de instalación y ejecución del proyecto
+└── README.md                          # Descripción del proyecto 
 
 ```
 
@@ -243,3 +244,7 @@ Al entrar en el trigger de `PantallaFinal`, se muestra el canvas final y se paus
 | **UI** | `BalaGestor`, `DashGestor`, `Score`, `Mercado`, `Instrucciones`, `PantallaFinal` |
 | **Interfaces** | `IRecibeImpacto`, `IRecibeImpactoRetroceso` |
 | **Escenas / cámara** | `CambioEscena`, `SeguimientoCamara`, `GuiaMenu`, `PanelAjustes` |
+
+## 🧰 Instalación y ejecución
+
+Ver [INSTRUCTIONS.md](INSTRUCTIONS.md)
