@@ -58,7 +58,7 @@ Si quieres **generar tu propia build**:
 
 4. Ejecuta el binario generado.
 
-## Cómo jugar
+## 🎮 Cómo jugar
 
 ### Objetivo
 
